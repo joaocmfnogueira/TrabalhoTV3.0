@@ -21,7 +21,7 @@ def on_mouse(event, x, y, flags, param):
                 break
                 
 VIDEO_PATH = "How to Shoot a Basketball-1920x1080-avc1-mp4a.mp4"
-MODEL_PATH = "yolov8n.pt"
+MODEL_PATH = "yolov10n.pt"
 CONF_THRESHOLD = 0.3
 
 model = YOLO(MODEL_PATH)
